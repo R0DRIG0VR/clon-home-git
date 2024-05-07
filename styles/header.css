@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ header #tagline {
     display: block;
     margin-top: 1px;
     margin-left: 10px;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 24px;
     color: #9a9994;
 }
