@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header > * {
+    margin: 0 10px;
+}
+
+header #tagline {
+    display: block;
+    margin-top: 1px;
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #9a9994;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
