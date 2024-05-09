@@ -11,6 +11,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+    padding-inline-start: 0;
+    margin-right: 1em;
 }
 
 #front-nav a h3 {
@@ -46,9 +48,16 @@
 
 #front-book {
     float: left;
-    width: 590px;
+    width: 35em;
     padding-top: 20px;
     border-top: solid 1px #d8d7cf;
+}
+#front-nav ul li {
+    list-style: none;
+}
+
+#front-nav ul li a {
+    text-decoration: none;
 }
 
 #front-book img {
@@ -56,7 +65,21 @@
     margin-right: 20px;
 }
 
+#front-navigation {
+    border-right: solid 1px #d8d7cf;
+}
 
+#front-book p {
+    margin-top: 16px;
+    color: #4e443c;
+}
+
+#front-book a {
+    color: #0388a6;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-property: color;
+}
 
 .monitor.mac {
     background-image: url('/images/mac-monitor.png');
