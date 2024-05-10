@@ -85,7 +85,7 @@
 }
 
 .monitor.mac {
-    background-image: url('/images/mac-monitor.png');
+    background-image: url('images/mac-monitor.png');
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
